@@ -1,0 +1,174 @@
+/* Estilos Gerais */
+.head {
+  font-family: "Lato", sans-serif;
+}
+body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+/* Header */
+.header {
+  top: 0;
+  width: 100%;
+  background-color: black;
+  padding: 15px 0;
+  position: sticky;
+}
+.header img {
+  height: 60px;
+  width: 150px;
+  padding: -10px;
+  align-items: flex-start;
+}
+.header_menu {
+  text-align: right;
+}
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header_menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.header_menu ul li a:hover {
+  color: #b22e2e;
+}
+
+/* Introducao */
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url("../img/tijolinho.png") repeat;
+  background-size: auto;
+}
+.promocoes h1 {
+  float: left;
+  width: 17%;
+  padding-top: 19px;
+  margin-left: 370px;
+}
+.promocoes h2 {
+  float: right;
+  width: 17%;
+  padding-top: 19px;
+  margin-right: 370px;
+}
+
+.header_novidades {
+  background-color: #531919;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.header_novidades ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 28px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.header_novidades ul li a:hover {
+  color: darkgreen;
+}
+.header_facaseupedido {
+  background-color: #531919;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.header_facaseupedido :hover {
+  color: darkgreen;
+}
+
+.header_facaseupedido nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 28px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.novidades {
+  background-color: #222121;
+}
+.novidades_lista h2 {
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #531919;
+  padding: 10px;
+  margin-top: 15px;
+  letter-spacing: 0.1em;
+}
+.novidades_lista p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+  padding: 5;
+  margin-bottom: 15px;
+  letter-spacing: 0.1em;
+}
+.novidades_lista img {
+  width: 300px;
+  height: 280px;
+}
+
+.redes {
+  width: 100%;
+  background-color: #dddcdc;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  text-transform: capitalize;
+  padding: 30px;
+  text-align: center;
+}
+.phones p {
+  padding: 5px;
+}
+.phones p img {
+  width: 20px;
+  height: 20px;
+}
+.whats h3 {
+  padding-bottom: 4px;
+}
+.whats p img {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+.media ul li {
+  display: inline-block;
+  padding: 8px;
+}
+.media ul li a {
+  width: 35px;
+  height: 35px;
+}
+.copy {
+  width: 100%;
+  background-color: #531919;
+  color: #dddcdc;
+  font-size: small;
+  padding: 20px 0px;
+}
